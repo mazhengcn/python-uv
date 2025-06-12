@@ -1,8 +1,12 @@
 {
     "recommendations": [
-        "charliermarsh.ruff",
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "astral-sh.ty",
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.tensorboard",
+        "ms-azuretools.vscode-containers",
         "redhat.vscode-yaml",
         "tamasfe.even-better-toml",
         "yzhang.markdown-all-in-one"
