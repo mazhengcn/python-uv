@@ -20,8 +20,13 @@ license = { file = "LICENSE" }
 
 dependencies = [
     "clu>=0.0.12",
-    "jax-ai-stack[grain]>=0.4.9",
-    "tf-nightly-cpu>=2.20.0.dev20250214",
+    "flax>=0.10.6",
+    "grain>=0.2.10",
+    "jax>=0.6.0",
+    "optax>=0.2.4",
+    "orbax-checkpoint>=0.11.13",
+    "orbax-export>=0.0.6",
+    "tensorflow>=2.19.0",
 ]
 
 [project.optional-dependencies]
@@ -39,6 +44,7 @@ dev = [
     "pre-commit>=4.2.0",
     "ruff>=0.11.6",
     "pytest>=8.3.5",
+    "ty>=0.0.1a11",
 ]
 
 [tool.ruff.lint]
